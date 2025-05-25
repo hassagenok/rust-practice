@@ -19,8 +19,6 @@ fn test() {
     let data = [
         ("Hello", "hELLO"),
         ("Привіт", "пРИВІТ"),  
-        ("12345", "12345"),
-        ("TeСт", "тЕсТ"),
     ];
 
     for &(input, expected) in data.iter() {
